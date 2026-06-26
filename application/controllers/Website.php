@@ -14,7 +14,7 @@ class Website extends CI_Controller
 
         $this->load->view('website_public/layout/header', $data);
         $this->load->view('website_public/home', $data);
-        $this->load->view('website_public/layout/footer', $data);
+        $this->load->view('website_public/layout/footer1', $data);
     }
 
     public function destinations()
