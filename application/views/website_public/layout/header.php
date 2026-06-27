@@ -40,5 +40,8 @@
 
 			</ul>
 
+			<div class="btn-login">
+				<a href="<?= site_url('auth') ?>">Login</a>
+			</div>
 		</nav>
 	</header>
