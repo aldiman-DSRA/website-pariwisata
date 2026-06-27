@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= isset($title) ? $title . ' - Admin Pantai Pecaron' : 'Admin Pantai Pecaron' ?></title>
     <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/style.css') ?>">
 </head>
+
 <body>
 
     <!-- Mobile Sidebar Overlay -->
@@ -14,10 +16,10 @@
     <!-- Sidebar -->
     <aside class="sidebar" id="sidebar">
         <div class="sidebar-brand">
-            <h2>Pecaron</h2>
-            <p>Admin Panel</p>
+            <h2>Pantai Pecaron</h2>
+            <p>Admin</p>
         </div>
-        
+
         <nav class="sidebar-menu">
             <div class="menu-label">Menu Utama</div>
             <ul>
@@ -64,7 +66,7 @@
             </ul>
 
             <div class="menu-logout">
-                <a id="keluar" href="<?= base_url('auth/logout') ?>" onclick="return confirm('Apakah Anda yakin ingin keluar?')">
+                <a id="keluar" href="<?= base_url('auth1/logout') ?>" onclick="return confirm('Apakah Anda yakin ingin keluar?')">
                     <div class="menu-icon icon-logout"></div>
                     Logout
                 </a>
@@ -87,7 +89,7 @@
             <div class="topbar-right">
                 <div class="topbar-user">
                     <div class="topbar-avatar">A</div>
-                    <span>Administrator</span>
+                    <span>Akun Admin</span>
                 </div>
             </div>
         </header>

@@ -8,8 +8,8 @@ class Admin extends CI_Controller
     {
         parent::__construct();
         $this->load->helper('url');
-        if($this->session->userdata('status') != "login"){
-            redirect('auth');
+        if ($this->session->userdata('status') != "login") {
+            redirect('auth1');
         }
     }
 
@@ -17,7 +17,7 @@ class Admin extends CI_Controller
     {
         $data['title'] = "Dashboard";
         $data['active_menu'] = "dashboard";
-        
+
         $this->load->view('admin/layout/header', $data);
         $this->load->view('admin/v_admin', $data);
         $this->load->view('admin/layout/footer');
@@ -27,7 +27,7 @@ class Admin extends CI_Controller
     {
         $data['title'] = "Kelola Wisata";
         $data['active_menu'] = "wisata";
-        
+
         $this->load->view('admin/layout/header', $data);
         $this->load->view('admin/v_wisata', $data);
         $this->load->view('admin/layout/footer');
@@ -37,7 +37,7 @@ class Admin extends CI_Controller
     {
         $data['title'] = "Kelola Artikel";
         $data['active_menu'] = "artikel";
-        
+
         $this->load->view('admin/layout/header', $data);
         $this->load->view('admin/v_artikel', $data);
         $this->load->view('admin/layout/footer');
@@ -47,7 +47,7 @@ class Admin extends CI_Controller
     {
         $data['title'] = "Kelola Akun";
         $data['active_menu'] = "akun";
-        
+
         $this->load->view('admin/layout/header', $data);
         $this->load->view('admin/v_akun', $data);
         $this->load->view('admin/layout/footer');
@@ -63,7 +63,7 @@ class Admin extends CI_Controller
     {
         $data['title'] = "Kelola Gambar";
         $data['active_menu'] = "gambar";
-        
+
         $this->load->view('admin/layout/header', $data);
         $this->load->view('admin/v_gambar', $data);
         $this->load->view('admin/layout/footer');
@@ -73,7 +73,7 @@ class Admin extends CI_Controller
     {
         $data['title'] = "Kelola Kontak";
         $data['active_menu'] = "kontak";
-        
+
         $this->load->view('admin/layout/header', $data);
         $this->load->view('admin/v_kontak', $data);
         $this->load->view('admin/layout/footer');

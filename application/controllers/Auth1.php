@@ -1,12 +1,12 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Auth extends CI_Controller
+class Auth1 extends CI_Controller
 {
     public function __construct()
     {
         parent::__construct();
-        // Tidak lagi menggunakan M_auth/Database
+        // Tidak lagi menggunakan M_Auth/Database
     }
 
     public function index()
@@ -34,13 +34,13 @@ class Auth extends CI_Controller
             redirect('admin');
         } else {
             $this->session->set_flashdata('error', 'Username atau password salah!');
-            redirect('auth');
+            redirect('auth1');
         }
     }
 
     public function logout()
     {
         $this->session->sess_destroy();
-        redirect('auth');
+        redirect('auth1');
     }
 }
