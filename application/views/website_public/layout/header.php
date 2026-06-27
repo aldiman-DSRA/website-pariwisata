@@ -49,6 +49,6 @@
         <a href="<?= site_url('website/about'); ?>">About Us</a>
     </nav>
 
-    <a href="#" class="book">Book Now</a>
+    <a href="#" class="book">LOGIN</a>
 
 </header>
