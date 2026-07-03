@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="<?= base_url(uri: 'assets1/style1.css') ?>">
+
 </head>
 
 <body>
@@ -136,7 +137,7 @@
 
 			</div>
 
-			<!-- Dokumentasi -->
+			<!-- dokumentasi -->
 			<div class="documentation">
 
 				<h2>Dokumentasi</h2>
