@@ -47,13 +47,13 @@
 	</section>
 
 	<section id="hero4">
-		<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Pantai Pancoran">
+		<img src="assets_gambar/home.jpeg" alt="Pantai Pancoran">
 	</section>
 
 
 	<section id="services">
 
-		<h2>SERVICES</h2>
+		<h2>ARTIKEL</h2>
 
 		<div class="service-container">
 
@@ -100,6 +100,8 @@
 		</div>
 
 	</section>
+
+	<!-- admin -->
 
 	<section id="gallery">
 

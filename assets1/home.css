@@ -16,10 +16,7 @@ body {
 /* Hero Section */
 #hero {
 	height: 100vh;
-	background: linear-gradient(rgba(0, 0, 0, 0.4),
-			rgba(0, 0, 0, 0.4)),
-		url("../images/pantai-pancoran.jpg");
-
+	background-image: url('assets_gambar/home-Copy.jpeg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -30,7 +27,7 @@ body {
 	align-items: center;
 
 	text-align: center;
-	color: white;
+	color: rgb(0, 0, 0);
 }
 
 #hero h1 {
