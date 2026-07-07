@@ -15,19 +15,19 @@ body {
 
 /* Hero Section */
 #hero {
-	height: 100vh;
-	background-image: url('assets_gambar/home-Copy.jpeg');
-	background-size: cover;
+
+	min-height: 100vh;
+	background-image: url('../assets_gambar/home\ -\ Copy.jpeg');
 	background-position: center;
 	background-repeat: no-repeat;
-
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-size: cover;
 
 	text-align: center;
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 
 #hero h1 {
@@ -36,7 +36,7 @@ body {
 }
 
 #hero p {
-	font-size: 22px;
+	font-size: 56px;
 }
 
 /* Section 2 */
