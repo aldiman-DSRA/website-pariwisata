@@ -58,10 +58,10 @@
 		<div class="service-container">
 
 			<div class="service-item">
-				<img src="img1.jpg">
+				<img src="assets_gambar/home.jpeg" alt="Keindahan Panorama">
 				<div class="service-text">
 					<h3>Keindahan Panorama</h3>
-					<p>Penjelasan layanan wisata pantai...</p>
+					<p>Keindahan Panorama di Glamping Pecaron menawarkan pemandangan alam yang asri dengan udara yang sejuk dan suasana yang tenang. Pengunjung dapat menikmati hamparan pepohonan hijau, perbukitan yang indah, serta panorama matahari terbit dan terbenam yang memukau. Keindahan alam tersebut menjadikan Glamping Pecaron sebagai tempat yang ideal untuk bersantai, berfoto, dan melepas penat dari kesibukan sehari-hari.</p>
 					<a href="<?php echo site_url('website/camping_area'); ?>" class="btn">
 						Pelajari Lebih Lanjut
 					</a>
@@ -69,16 +69,16 @@
 			</div>
 
 			<div class="service-item">
-				<img src="img2.jpg">
+				<img src="assets_gambar/home.jpeg" alt="Glamping Pecaron">
 				<div class="service-text">
 					<h3>Glamping Pecaron</h3>
-					<p>Penjelasan glamping...</p>
+					<p>Glamping Pecaron merupakan destinasi wisata alam yang menggabungkan pengalaman berkemah dengan kenyamanan fasilitas modern. Berlokasi di kawasan yang asri dan sejuk, Glamping Pecaron menawarkan penginapan bergaya tenda eksklusif, pemandangan alam yang indah, serta berbagai aktivitas luar ruangan seperti bersantai, menikmati panorama, dan berfoto. Tempat ini cocok untuk liburan bersama keluarga, teman, maupun pasangan yang ingin merasakan suasana alam tanpa harus mengorbankan kenyamanan.</p>
 					<a href="#" class="btn">Pelajari Lebih Lanjut</a>
 				</div>
 			</div>
 
 			<div class="service-item">
-				<img src="img3.jpg">
+				<img src="assets_gambar/home.jpeg" alt="Camping Area">
 				<div class="service-text">
 					<h3>Camping Area</h3>
 					<p>Camping Area merupakan area yang disediakan bagi wisatawan yang ingin berkemah dan menikmati suasana alam secara lebih dekat. Pengunjung dapat mendirikan tenda di lokasi yang telah ditentukan sambil menikmati udara segar, pemandangan alam, serta suasana yang tenang. Area ini cocok untuk kegiatan bersama keluarga, teman, maupun komunitas. Demi menjaga kenyamanan dan kelestarian lingkungan, pengunjung diharapkan menjaga kebersihan, mematuhi peraturan yang berlaku, dan tidak merusak fasilitas maupun alam di sekitar area perkemahan.
@@ -88,7 +88,7 @@
 			</div>
 
 			<div class="service-item">
-				<img src="img3.jpg">
+				<img src="assets_gambar/home.jpeg" alt="Galeri Pantai">
 				<div class="service-text">
 					<h3>Camping Area</h3>
 					<p>Camping Area merupakan area yang disediakan bagi wisatawan yang ingin berkemah dan menikmati suasana alam secara lebih dekat. Pengunjung dapat mendirikan tenda di lokasi yang telah ditentukan sambil menikmati udara segar, pemandangan alam, serta suasana yang tenang. Area ini cocok untuk kegiatan bersama keluarga, teman, maupun komunitas. Demi menjaga kenyamanan dan kelestarian lingkungan, pengunjung diharapkan menjaga kebersihan, mematuhi peraturan yang berlaku, dan tidak merusak fasilitas maupun alam di sekitar area perkemahan.
